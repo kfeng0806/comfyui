@@ -12,13 +12,13 @@ services:
     image: ghcr.io/ai-dock/comfyui:${IMAGE_TAG:-jupyter-pytorch-2.2.0-py3.10-cuda-11.8.0-runtime-22.04}
     
     ## For Nvidia GPU's - You probably want to uncomment this
-    #deploy:
-    #  resources:
-    #    reservations:
-    #      devices:
-    #        - driver: nvidia
-    #          count: all
-    #          capabilities: [gpu]
+    deploy:
+     resources:
+       reservations:
+         devices:
+           - driver: nvidia
+             count: all
+             capabilities: [gpu]
     
     devices:
       - "/dev/dri:/dev/dri"
@@ -28,7 +28,7 @@ services:
               
     volumes:
       ## Workspace
-      - ./workspace:${WORKSPACE:-/workspace/}:rshared
+      - /storage/comfy-ui_data/workspace:${WORKSPACE:-/workspace/}:rshared
       # You can share /workspace/storage with other non-ComfyUI containers. See README
       #- /path/to/common_storage:${WORKSPACE:-/workspace/}storage/:rshared
       
