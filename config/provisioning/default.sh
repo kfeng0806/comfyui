@@ -7,6 +7,7 @@
 
 NODES=(
     "https://github.com/ltdrdata/ComfyUI-Manager"
+    "https://github.com/AIGODLIKE/AIGODLIKE-COMFYUI-TRANSLATION"
 )
 
 CHECKPOINT_MODELS=(
