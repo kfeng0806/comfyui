@@ -15,11 +15,11 @@ CHECKPOINT_MODELS=(
     #"https://huggingface.co/stabilityai/stable-diffusion-2-1/resolve/main/v2-1_768-ema-pruned.ckpt"
     "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors"
     "https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/resolve/main/sd_xl_refiner_1.0.safetensors"
-    "https://huggingface.co/WarriorMama777/OrangeMixs/blob/main/Models/AbyssOrangeMix3/AOM3A3_orangemixs.safetensors"
-    "https://huggingface.co/WarriorMama777/OrangeMixs/blob/main/Models/AbyssOrangeMix3/AOM3B4_orangemixs.safetensors"
-    "https://huggingface.co/WarriorMama777/OrangeMixs/blob/main/Models/VividOrangeMix/VividOrangeMix.safetensors"
-    "https://huggingface.co/WarriorMama777/OrangeMixs/blob/main/Models/VividOrangeMix/VividOrengeMix_Hard.safetensors"
-    "https://huggingface.co/WarriorMama777/OrangeMixs/blob/main/Models/VividOrangeMix/VividOrengeMix_NSFW.safetensors"
+    "https://huggingface.co/WarriorMama777/OrangeMixs/resolve/main/Models/AbyssOrangeMix3/AOM3A3_orangemixs.safetensors"
+    "https://huggingface.co/WarriorMama777/OrangeMixs/resolve/main/Models/AbyssOrangeMix3/AOM3B4_orangemixs.safetensors"
+    "https://huggingface.co/WarriorMama777/OrangeMixs/resolve/main/Models/VividOrangeMix/VividOrangeMix.safetensors"
+    "https://huggingface.co/WarriorMama777/OrangeMixs/resolve/main/Models/VividOrangeMix/VividOrengeMix_Hard.safetensors"
+    "https://huggingface.co/WarriorMama777/OrangeMixs/resolve/main/Models/VividOrangeMix/VividOrengeMix_NSFW.safetensors"
 )
 
 LORA_MODELS=(
