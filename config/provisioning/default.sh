@@ -8,6 +8,8 @@
 NODES=(
     "https://github.com/ltdrdata/ComfyUI-Manager"
     "https://github.com/AIGODLIKE/AIGODLIKE-COMFYUI-TRANSLATION"
+    "https://github.com/city96/SD-Latent-Upscaler"
+    "https://github.com/ltdrdata/ComfyUI-Impact-Pack"
 )
 
 CHECKPOINT_MODELS=(
